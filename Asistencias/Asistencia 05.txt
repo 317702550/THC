@@ -1,2 +1,7 @@
-Día 1: Al inicio de la clase tuvimos una actividad que consistía en escribir 6 conceptos, 3 fáciles y 3 difíciles, y definir las palabras según como nosotros las habíamos entendido. Utilizamos otros comandos como “rm”, que se utiliza para borrar archivos. A partir de la máquina remota, descargamos el repositorio de THC y agregamos la definición de Shell al directorio de Linux, pero lo hicimos dos veces, una en el respositorio local y otra en el repositorio remoto. 
-Día 2: Continuamos lo que hicimos el día 1 e intentamos subir una versión diferente de nuestro repositorio a propósito para así entender qué pasos seguir para arreglar el conflicto.
+Día 1: Al inicio de la clase tuvimos una actividad que consistía en escribir 6 conceptos, 3 fáciles y 3 difíciles, y 
+definir las palabras según como nosotros las habíamos entendido. Utilizamos otros comandos como “rm”, que se utiliza para 
+borrar archivos. A partir de la máquina remota, descargamos el repositorio de THC y agregamos la definición de Shell al 
+directorio de Linux, pero lo hicimos dos veces, una en el respositorio local y otra en el repositorio remoto. 
+
+Día 2: Continuamos lo que hicimos el día 1 e intentamos subir una versión diferente de nuestro repositorio a 
+propósito para así entender qué pasos seguir para arreglar el conflicto.
