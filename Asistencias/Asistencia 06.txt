@@ -1,0 +1,15 @@
+Semana 6: 
+
+Día 1: Empezamos a trabajar con IDLE 3 y programamos con Python. Se nos explicó acerca de 
+cómo trabaja Python y las diferencias entre el Shell 
+de Python y Fedora. También se nos dio una noción de algunos errores que podemos cometer al programar en Python. 
+Ingresamos algunos valores para la fórmula de la altura para tiro vertical y nos 
+familiarizamos con el uso del lenguaje en Python. Las variables en Python 
+distinguen mayúsculas de minúsculas. 
+
+Día 2: Hicimos una modificación de los archivos de Python con nombres de las variables más largos para demostrar 
+que es más fácil equivocarse con nombres largos. Definimos lo que es una cadena: es una serie de 
+caracteres que se encuentran entre comillas simples o dobles. Podemos expresar de manera compacta en Python: %g (generic) muestra la 
+variable de la forma más compacta, %f (flote) muestra la variable flotante, %s (string) se usa para cadenas. 
+Un conjunto delimitado por varias comillas es una cadena multilínea. 
+Un programa compilado hace una traducción del código fuente al código binario. 
