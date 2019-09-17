@@ -1,3 +1,4 @@
+# Maximiliano Proaño Bernal, Antonino Equihua
 # Triángulo equilátero de lado 2
 # con un vértice en el origen en
 # el cuadrante I y un lado sobre el eje x
