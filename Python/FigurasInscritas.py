@@ -146,7 +146,7 @@ ax.add_patch(circulo)
 
 plt.legend()
 plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
-#plt.draw() 
+# plt.draw() 
 
 r = 5
 l = 6
