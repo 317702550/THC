@@ -64,3 +64,39 @@ Uso: ssh [OPCIONES] <usuario>@<servidor>
 
 text = ('Escribe varias cadenas dentro del par´entesis '
         'para tenerlas unidas') #
+
+
+
+
+
+
+
+
+
+numero = "1024" # Guarda "numero" como el valor de 1024
+vocales = "aeiou" # Guarda "vocales" como "aeiou"
+print(numero.isnumeric()) # Analiza si la variable "numero" tiene valor numérico e imprime el resultado (True)
+print(vocales.isnumeric()) # Analiza si la variable "vocales" tiene valor numérico e imprime el resultado (False)
+
+pelicula = "2001: UNA MENTE BRILLANTE" #
+libro = "Cinco Ecuaciones Que CAmbiaron Al Mundo" #
+poema = "nadie en oro se convertirá:" #
+
+print(pelicula.islower()) #
+print(pelicula.isupper()) #
+
+print(libro.istitle()) #
+print(libro.isupper()) #
+
+print(poema.istitle()) #
+print(poema.islower()) #
+
+cadena = "Linux es un kernel." #
+" ".join(cadena) #
+print(cadena) #
+print(" ".join(cadena)) #
+
+print("".join(reversed(cadena))) #
+
+# https://docs.python.org/3/tutorial/introduction.html#strings
+# https://www.digitalocean.com/community/tutorials/an-introduction-to-string-functions-in-python-3
