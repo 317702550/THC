@@ -20,19 +20,19 @@
 2 ** 1/2 # Realiza y muestra el resultado de elevar 2 a la primera potencia y dividirlo entre 2
 2 ** (1/2) # Realiza y muestra el resultado de sacar raíz cuadrada a 2
 
-ancho = 20 #
-alto = 5 * 9 #
-ancho * alto #
+ancho = 20 # Guarda "ancho" con valor de 20
+alto = 5 * 9 # Guarda "alto" con valor de 5*9
+ancho * alto # Realiza y muestra el resultado de multiplicar ancho por alto
 
-n #
+n # Manda error, ya que "n" no está definido
 
-4 * 3.75 - 1 #
+4 * 3.75 - 1 # Realiza y muestra el reslutado de la resta del producto de 4 por 3.75 menos 1
 
-iva = 16/100 #
-precio = 120.5 #
-precio * iva #
-precio + _ #
-round(_, 2) #
+iva = 16/100 # Guarda "iva" con valor de 16/100
+precio = 120.5 # Guarda "precio" con valor de 120.5
+precio * iva # Realiza y muestra el resultado de multiplicar precio por iva
+precio + _ # Realiza y muestra el resultado de sumar precio más el precio por el iva
+round(_, 2) # Redondea el resultado anterior a dos decimales
 
 # Cadenas
 'una cadena' #
