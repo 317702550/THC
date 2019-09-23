@@ -14,11 +14,11 @@
 17 % 3 # Realiza la divisón 17 entre 3 y muestra el residuo de la división
 5 * 3 + 2 # Realiza y muestra el resultado de la suma de 2 más el producto de 5 por 3
 
-5 ** 2 #
-2 ** 7 #
-9 ** 0.5 #
-2 ** 1/2 #
-2 ** (1/2) #
+5 ** 2 # Realiza y muestra el resultado de elevar 5 al cuadrado
+2 ** 7 # Realiza y muestra el resultado de elevar 2 a la séptima potencia
+9 ** 0.5 # Realiza y muestra el resultado de sacar raíz cuadrada a 9
+2 ** 1/2 # Realiza y muestra el resultado de elevar 2 a la primera potencia y dividirlo entre 2
+2 ** (1/2) # Realiza y muestra el resultado de sacar raíz cuadrada a 2
 
 ancho = 20 #
 alto = 5 * 9 #
