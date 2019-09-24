@@ -75,7 +75,7 @@ ax.add_patch(circulo)
 
 plt.legend()
 plt.show() # comenten esta linea desde el inicio y descomenten la siguiente ¿hubo algun cambio?
-# plt.draw() 
+#plt.draw() 
 
 l = 3
 a = 2*pi/l
@@ -243,7 +243,7 @@ ax.add_patch(circulo)
 
 plt.legend()
 plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
-#plt.draw() 
+#plt.draw() # Grafica la figura junto con la siguiente
 
 r = 5
 l = 8
