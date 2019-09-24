@@ -1,0 +1,11 @@
+Día 1: En Python hicimos un programa que nos daba las coordenadas de un 
+triángulo equilátero, cuadrado, paralelogramo y rectángulo, todos con 
+vértice en el origen, en el primer cuadrante y lado 2. Esto para poder 
+empezar a comprender el comportamiento y el lenguaje que usa Python 
+
+Día 2: Se nos explicó acerca del uso de los objetos y funciones en Python,
+en particular “math”. Un método siempre está asociado a un objeto de la forma: 
+objeto.método. Una función no requiere de un objeto necesariamente pero si 
+requiere de información. Se nos mostró el proceso para poder graficar en Python. 
+Se nos dejó de tarea hacer un programa en Python el cual graficara polígonos 
+inscritos en un círculo  
