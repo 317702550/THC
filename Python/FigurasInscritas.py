@@ -75,6 +75,7 @@ ax.add_patch(circulo)
 
 plt.legend()
 plt.show() # comenten esta linea desde el inicio y descomenten la siguiente ¿hubo algun cambio?
+# Sí, el polígono fue inscrito dentro de la circunferencia con el siguiente polígono
 #plt.draw() 
 
 l = 3
@@ -446,7 +447,7 @@ x = np.array([x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x1])
 y = np.array([y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y1])
 
 
-print("""Las coordenadas del decágono
+print("""Las coordenadas del undecágono
 inscrito en una circunferencia de radio %f
 son:
 A = (%5.2f,%5.2f)
@@ -510,7 +511,7 @@ x = np.array([x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x1])
 y = np.array([y1,y2,y3,y4,y5,y6,y7,y8,y9,y10,y11,y12,y1])
 
 
-print("""Las coordenadas del decágono
+print("""Las coordenadas del dodecágono
 inscrito en una circunferencia de radio %f
 son:
 A = (%5.2f,%5.2f)
@@ -538,4 +539,20 @@ ax.add_patch(circulo)
 
 plt.legend()
 plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
-#plt.draw() 
+#plt.draw()
+
+
+
+
+r = 5
+l = 12
+a = 2*pi/l
+P=0
+C = ("x1","x2","x3","x4","x5","x6","x7","x8","x9","x10","x11","x12","y1","y2","y3","y4","y5","y6","y7","y8","y9","y10","y11","y12")
+while P<12:
+    P = P+1
+    for c in C[0:12]:
+        c = r*cos(P*a)
+    print(("%.2f")%(c))
+    for c in C[12:24]:
+        c = r*sin(P*a)
