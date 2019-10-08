@@ -1,0 +1,15 @@
+Semana 8:  
+
+Día 1: Una tupla es una variable que contiene información y es inmutable, 
+esto es, una vez definida, ya no se puede cambiar o redefinir el valor de 
+dicha variable. Se nos dio una introducción a los ciclos, y por ende se 
+mencionaron los tabuladores. Estuvimos jugando con las tuplas y sus propiedades 
+para observar el comportamiento de las mismas. 
+
+Día 2: El profesor nos mostró un servidor en línea donde podemos usar Fedora 
+desde el navegador. Se habló sobre la latencia, que hace referencia al tiempo 
+que tarda una el cliente en mandar una señal al servidor y recibir la respuesta 
+del mismo servidor. Se nos dejó la tarea de configurar nuestro repositorio en 
+el Fedora de la página OnWorks, la cual está abierta para cualquier dispositivo 
+con navegador y poder ejecutar en él mismo Fedora, Windows, Ubuntu, entre otros 
+sistemas operativos. 
