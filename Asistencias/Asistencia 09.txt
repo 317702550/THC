@@ -1,0 +1,13 @@
+Semana 9:  
+
+Día 1: El profesor nos dio un ejemplo de cómo se podría utilizar for con un 
+ejemplo utilizando una lista y se ejecutó en un programa en Python. Empezamos 
+a utilizar otro tipo de instrucciones como if, else.
+Una función es un bloque de código que recibe y procesa información y puede 
+o no mandar una respuesta. 
+
+Día 2: El día anterior se nos había asignado una tarea, la cual constaba de 
+usar los comandos necesarios para crear una función hecha por nosotros. 
+El profesor nos dio el tiempo de la clase para realizar la tarea y explicarnos 
+la utilidad y el funcionamiento de esto. Pudimos entonces entender el comportamiento 
+básico y la jerarquía de los diferentes ciclos, condiciones, etc. 
