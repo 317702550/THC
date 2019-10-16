@@ -1,4 +1,4 @@
-def Regla30(x,y,z):
+def Regla30(x,y,z): # x,y,z son los estados de las células respectivamente
     if x == 0:
         if y == 0:
             if z == 0:
@@ -17,12 +17,17 @@ def Regla30(x,y,z):
             answer = 0
     return(answer)
 
-
 cells = []
 for x in range(43):
     list.append(cells,0)
-cells[22] = 1
+cells[21] = 1
+print(cells)
 
-gen = []  
-for c in cells:
-    print(cells.index(c,0,44))
+for a in range(22):
+    gen1 = []
+    for i in range(42):
+        list.append(gen1,Regla30(cells[i-1],cells[i],cells[i+1]))
+    list.append(gen1,Regla30(cells[41],cells[42],cells[0]))
+    cells = gen1
+    print(cells)
+
