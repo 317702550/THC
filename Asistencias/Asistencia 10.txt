@@ -1,0 +1,12 @@
+Semana 10: 
+
+Día 1: Se nos había asignado la tarea de leer un artículo sobre autómatas 
+celulares unidimensionales, el cuál habla sobre las condicionales iniciales 
+que se le puede dar a un conjunto de células y las reglas que debe seguir 
+para que la siguiente generación genere. Nos dio una explicación sobre su 
+sistema binario entre otras cosas.  
+
+Día 2: Entre todos, con la guía del profesor, analizamos paso a paso el proceso
+de traducir al lenguaje de Python la regla 30 de los autómatas celulares, para
+poder así, a partir de líneas de código, generar nuestras propias generaciones
+de células que cumplan con las condiciones dadas. 
