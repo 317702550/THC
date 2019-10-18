@@ -98,8 +98,11 @@ el desarrollo de
 (a + b)^2
 (a - b)^2
 '''
-def Binomio(b):
-    answer = a**2 + 2*a*b + b**2
+def Binomio(a,b):
+    answer1 = a**2 + 2*a*b + b**2
+    answer2 = a**2 - b**2
+    return(answer1,answer2)
+print(Binomio(3,4))
 print("----------------")
 '''
 Dados los coeficientes de una ecuacion cuadratica
