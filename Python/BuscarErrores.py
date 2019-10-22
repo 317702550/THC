@@ -13,16 +13,16 @@
 # Comentarios privados
 # Python, implementación de funciones
 
-1a = 2  # el inicio del nombre de una variable no puede ser un valor numérico
+#1a = 2  # el inicio del nombre de una variable no puede ser un valor numérico
 a1 = b
 x = 2
 y = X + 4 # y vale 6?
 from Math import tan
-print (tan(pi))    # faltan los paréntesis y pi no está definido
-pi = "3.14159'     
-print tan(pi)      # debido a que pi no es un valor numérico, sino literal, entonces la función tangente no puede ser usada
+print (tan(pi)    # faltan los paréntesis y pi no está definido
+pi = "3.14159' "  # se abrió con dos comillas y se intentó cerrar con una, entonces jamás cerró en realidad 
+#print tan(pi)    # debido a que pi no es un valor numérico, sino literal, entonces la función tangente no puede ser usada. Más aun, al inicio programa se escribió Math con mayúscula. Debió habre sido con minúscula
 c = 4**3**2**3
-_ = ((c-78564)/c + 32))
+_ = ((c-78564)/c + 32)) # sobra un paréntesis
 descuento = 12%
 MONTO = 120.-
 monto = $120

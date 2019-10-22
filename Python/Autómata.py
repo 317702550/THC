@@ -33,7 +33,7 @@ for a in range(22,0,-1):
         gen1.append(Regla30(cells[i-1],cells[i],cells[i+1]))
     gen1.append(Regla30(cells[41],cells[42],cells[0]))
     cells = gen1
-    #print(cells)
+    print(cells)
     e = []
     n = len(cells)
     for v in range(n):
