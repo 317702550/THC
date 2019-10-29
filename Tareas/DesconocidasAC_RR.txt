@@ -1,0 +1,11 @@
+Booleana|Sistema de razonamiento lógico utilizado para denotar argumentos
+verdaderos o falsos|https://www.techopedia.com/definition/5495/boolean
+
+Auto-similar|En matemáticas, es un objeto que es muy parecido o idéntico
+a una de sus partes|https://en.wikipedia.org/wiki/Self-similarity
+
+Auto-organización|Proceso mediante el cual un sistema con conidiciones
+iniciales de supuesto desorden llega a una coordinación a través de las
+interacciones de los elementos que lo componen|
+https://es.wikipedia.org/wiki/Autoorganizaci%C3%B3n
+
