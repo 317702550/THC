@@ -1,0 +1,11 @@
+Semana 11: 
+
+Día 1: Continuamos con el proceso de análisis para nuestro programa de 
+autómatas celulares unidimensionales. Utilizamos muchos comandos a nuestro 
+favor como lo son el módulo (regresa el residuo de dividir un número entre 
+otro). 
+
+Día 2: El código fuente son líneas de código en un lenguaje de programación 
+que ejecutan el mismo. La ayudante nos guió al descargar paquetes desde la 
+terminal para LaTeX. Una vez hecho esto, seguimos creando nuestro primer 
+documento en LaTeX. 
