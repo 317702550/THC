@@ -1,0 +1,40 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+\usepackage{float}
+%opening
+\title{Reporte del archivo RaízCuadrada.tex}
+\author{Maximiliano Proaño Bernal}
+
+\begin{document}
+
+\maketitle
+En este documento hablaré sobre algunos detalles que surgieron mientras realizaba y al terminar el programa para calcular la raíz cuadrada.\\
+Al inicio, no se tuvo mayor complicación con el entendimiento del problema y cómo atacarlo. Parecieron muy claras las herramientas que se debían utilizar en Python para poder calcular la raíz. Afortunadamente hubo pocos errores al programar y se pudieron resolver sin mayor complicación. A su vez, se utilizaron algunos conociemientos que adquirí, no en clase, sino interactuando por cuenta propia con las diversas herramientas que Python proporciona.
+
+Una vez terminado el programa, se corrió para corroborar que funcionara como debía de hacerlo, lo cual hizo. Sin embargo, algo que noté y que me intrigó es que, comparándo mi programa con el de mis compañeros, noté que el mió tardaba más en calcular la raíz, no es cuestión de tiempo, sino en cuestión de pasos necesarios. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.02\linewidth]{"Imagenes/Captura 6"}
+	\caption{}
+	\label{fig:captura-6}
+\end{figure}
+En la imágen se aprecia que se utilizaron alrededor de 20 pasos para aproximar la raíz de 81 a 8.99. Esto me llamó mucho la atención, ya que aparentemente utilizamos métodos similares. Después de analizar el código, noté que definí variables extras innecesarias, las cuales sospecho que eran las responsables del retraso del programa, así que las corregí.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.02\linewidth]{"Imagenes/Captura 7"}
+	\caption{}
+	\label{fig:captura-7}
+\end{figure}
+Como se puede ver en la imágen, ahora solo toma alrededor de 10 pasos para aproximar de forma muy precisa a las respectivas raíces de cada número.
+
+Para finalizar, al final del archivo RaízCuadrada.tex se le hacen dos preguntas al lector: 1. ¿Siempre se obtiene el valor exacto de la raíz?
+2. ¿Hay un número fijo de rectángulos que se tengan que calcular antes
+de obtener la raíz?
+
+La respuesta a la pregunta uno es: depende de cómo definamos "exacto". Si con exacto nos referimos a una escala de decimales, es decir, si nos fijamos en los primeros ocho o nueve decimales, la cual es una aproximación muy buena, la respuesta es sí, ya que siempre podemos agregar un paso extra para tener mayor precisión. Si con exacto nos referimos a perfecta exactitud, la respuesta es no, ya que el proceso de sacar promedio y dividir y todo lo que implica calcular la raíz, es un proceso infinito, lo cual es evidente que es imposible.
+
+La respuesta a la pregunta 2 es, nuevamente: depende, pero ahora del número al que se le saca raíz. En la imágen se puede apreciar muy bien. Para algunos números fueron suficientes 3 pasos para dar una respuesta de más de 4 decimales de precisión, cosa que ocurría después de 3 o 4 pasos más para otros números.
+Para concluir, agrego que fue un gran ejercicio para los alumnos, ya que no solo se puso a prueba los conociemientos adquiridos en clase para usar las diferentes herramientas de Python, sino que también nos obligó a razonar cuál sería la solución más eficiente al problema en cuestión, la cual es una habilidad casi necesaria al programar.
+\section{}
+
+\end{document}

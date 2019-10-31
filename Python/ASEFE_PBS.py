@@ -9,11 +9,9 @@ def rc(x):
     h = 1
     print("""
 Proceso para la raíz de """ + str(x) + ":") # La función str() convierte una variable numérica a forma de texto para poder concatenarlo con más texto
-    for i in range(20):
-        b_new = (b + h)/2
-        h_new = x/b
-        b = b_new
-        h = h_new
+    for i in range(1,9):
+        b = (b + h)/2
+        h = x/b
         print("Rectángulo %.0f---%.5f---%.5f"%(i,b,h))
     return("Resultado final: "+str(b))
 print(rc(81))
