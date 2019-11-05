@@ -1,0 +1,12 @@
+Semana 12: 
+
+Día 1: Al inicio de la clase, se nos mostró una nueva forma de crear una lista, 
+en donde le pedimos a Python, con un for dentro de la lista, agregar cada valor 
+que se le indica a la lista. Al final de la clase se nos aplicó un examen sorpresa, 
+donde se contestó una serie de preguntas relacionadas a todo lo que hemos 
+visto a lo largo del semestre. 
+
+Día 2: El profesor hizo una actividad en la que pudimos estar en contacto con 
+la estructura de los fractales y se nos dejó la tarea de hacer un programa que 
+calcular las primeras x figuras del fractal de Cantor. También incorporamos a 
+nuestras herramientas de Python la función while. 
