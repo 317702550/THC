@@ -1,1 +1,1 @@
-Directiorio para los ejercicios de HackerRank
+Directorio de los retos de Hacker Rank
