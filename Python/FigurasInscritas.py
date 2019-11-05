@@ -93,9 +93,9 @@ ax.add_patch(circulo)
 
 
 plt.legend()
-plt.show() # comenten esta linea desde el inicio y descomenten la siguiente ¿hubo algun cambio?
+#plt.show() # comenten esta linea desde el inicio y descomenten la siguiente ¿hubo algun cambio?
 # Sí, el polígono fue inscrito dentro de la circunferencia con el siguiente polígono
-#plt.draw() 
+plt.draw() 
 
 l = 3
 a = 2*pi/l
@@ -123,7 +123,8 @@ plt.plot(x, y, label='linear', color='r')
 ax.add_patch(circulo)
 
 plt.legend()
-plt.show()
+#plt.show()
+plt.draw()
 
 r = 5
 l = 4
@@ -178,8 +179,8 @@ ax.add_patch(circulo)
 
 
 plt.legend()
-plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
-# plt.draw() 
+#plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
+plt.draw() 
 
 r = 5
 l = 6
@@ -238,8 +239,8 @@ plt.plot(x, y, label='linear', color='r')
 ax.add_patch(circulo)
 
 plt.legend()
-plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
-#plt.draw() 
+#plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
+plt.draw() 
 
 r = 5
 l = 7
@@ -301,8 +302,8 @@ plt.plot(x, y, label='linear', color='r')
 ax.add_patch(circulo)
 
 plt.legend()
-plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
-#plt.draw() # Grafica la figura junto con la siguiente
+#plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
+plt.draw() # Grafica la figura junto con la siguiente
 
 r = 5
 l = 8
@@ -367,8 +368,8 @@ plt.plot(x, y, label='linear', color='r')
 ax.add_patch(circulo)
 
 plt.legend()
-plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
-#plt.draw() 
+#plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
+plt.draw() 
 
 r = 5
 l = 9
@@ -436,8 +437,8 @@ plt.plot(x, y, label='linear', color='r')
 ax.add_patch(circulo)
 
 plt.legend()
-plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
-#plt.draw() 
+#plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
+plt.draw() 
 
 r = 5
 l = 10
@@ -508,8 +509,8 @@ plt.plot(x, y, label='linear', color='r')
 ax.add_patch(circulo)
 
 plt.legend()
-plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
-#plt.draw() 
+#plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
+plt.draw() 
 
 r = 5
 l = 11
@@ -583,8 +584,8 @@ plt.plot(x, y, label='linear', color='r')
 ax.add_patch(circulo)
 
 plt.legend()
-plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
-#plt.draw() 
+#plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
+plt.draw() 
 
 r = 5
 l = 12
@@ -662,4 +663,4 @@ ax.add_patch(circulo)
 
 plt.legend()
 plt.show() # comenten esta linea desde el inicio y descomenten la siguientem ¿hubo algun cambio?
-#plt.draw()
+plt.draw()
