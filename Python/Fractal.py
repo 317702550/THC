@@ -30,4 +30,3 @@ def frac(x):
     plt.show()
 frac(7)
 
-# Fue lo mejor que pude hacer profe :c
