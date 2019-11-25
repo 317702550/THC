@@ -1,0 +1,10 @@
+Paradigmas de la programación: 
+
+Un paradigma de programacón es un diseño de programas que permite producir estos mismos con normas específcas. Se puede definir como modelos a seguir adoptados por la comunidad para resolver problemas computacionales, así como la estructura y organización de las tareas que el programa lleva a cabo. Existen diferentes tipos de paradigmas: 
+1) Imperativo: Explica el cómo de un cálculo y no el por qué. 
+
+2) Declarativo: Explica el por qué de un cálculo y no el cómo. 
+
+3) Paradigma basado en objetos: Conocido por sus siglas como OOP, define a los programas en términos de “clases de objetos”.  
+
+4) Lógico: Como su nombre lo dice, está basado en lenguaje lógico, esto es, sentencias interrogativas seguidas de ciertos o falsos. 

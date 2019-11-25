@@ -1,0 +1,25 @@
+Procesador: El “cerebro” de la computadora. Todos los procesos de un aparato 
+electrónico son llevados a cabo por el procesador. 
+
+Kernel: El núcleo del sistema operativo. Tiene control sobre todo lo que se 
+lleva a cabo dentro de la computadora. 
+
+Linux: Sistema operativo de software libre más usado. 
+
+Python: Lenguaje de programación de alto nivel utilizado por su fácil 
+comprensión. 
+
+Comando: Instrucciones u órdenes que el usuario manda a través de un shell 
+
+Sistema operativo: También llamado software, es el programa que proporciona 
+al usuario el acceso interactivo con los demás programas del dispositivo 
+
+Repositorio: Base de datos con acceso a archivos digitales 
+
+Servidor: Software que realiza tareas en nombre del usuario utilizándolo 
+
+Cliente: Dispositivo o aplicación el cual está en comunicación con el servidor 
+
+Ruta absoluta: La dirección completa desde el home del usuario hasta el archivo
+
+Ruta relativa: La dirección a partir de un directorio o repositorio en común de dos o más ordenadores
