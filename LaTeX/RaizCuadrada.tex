@@ -1,0 +1,108 @@
+\documentclass[letter,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\pagenumbering{gobble}
+
+%opening
+\title{Una aproximación a la raíz cuadrada}
+\author{Luis Enrique Serrano Gutiérrez}
+\usepackage{tikz,stackengine}
+\begin{document}
+
+\maketitle
+
+
+\begin{abstract}
+Se presenta una forma de calcular la raíz cuadrada de un número positivo basada en la publicación ''Algoritmos Sencillos para Evaluar Funciones Elementales''escrita por el profesor Pablo Barrera Sánchez \cite{AlgoritmosPablo}.
+\end{abstract}
+\iffalse
+ Es conocido el algoritmo para calcular la raíz cuadrada que requiere separar de dos en dos cifras de derecha a izquierda del punto decimal para buscar un número que multiplicado $y$ por si mismo sea lo más cercano al numero de a lo más dos cifras que se encuentre en el extremo izquierdo de la expresión, por el momento esta solución no es de nuestro interés.
+\fi
+
+\section*{La idea}
+La raíz cuadrada de un numero $x$ está definida como un número $y$ tal que al ser multiplicado por si mismo se obtiene el número $x$, es decir:\\
+
+$ x = y*y$\\
+
+Recordemos que la fórmula para calcular el área de un cuadrado de lado l es:
+
+ area del cuadrado de lado l $= l * l  $\\
+ 
+ por lo que es posible hacer una interpretación geométrica de la raíz cuadrada del número $x$ como los lados de un cuadrado de área $x$.\\
+ \pagebreak
+\section*{El procedimiento}
+Partiendo de esta interpretación el objetivo es calcular el valor $y$ a partir de la información inicial disponible, el valor de $x$. La primer pregunta por responder es: ¿A partir del valor $x$ puedo construir una figura de área $x$ de una forma sencilla?, la respuesta es sí, pues un rectángulo de altura 1 y base $x$ tiene área $x$.\\\\
+%\enlargethispage{\baselineskip} 
+\begin{center}
+   { \begin{tikzpicture}
+        \draw (0,0) -- (0,1) -- (5,1) -- (5,0) -- (0,0);
+        \filldraw[black] (2.3,.2) circle (0pt)
+        node[anchor=west] {x};        
+        \filldraw[black] (5,.5) circle (0pt)
+        node[anchor=west] {1};
+    \end{tikzpicture}}
+\end{center}
+Una vez que se ha establecido un punto de partida, el rectángulo de base $b = x$ y altura $h = 1$ cuya área es $x$ (que se calcula con la fórmula $a = b * h$), se debe hacer la pregunta ¿cómo se deben modificar la base y la altura de ese rectángulo para que el rectángulo sea más parecido a un cuadrado, es decir, para que los lados sean más parecidos a la raíz cuadrada de $x$?. \\
+
+Una forma de hacer esté cambio es cambiar la base por el promedio entre la base $b$ y la altura $h$:
+$b$ = $(b+h)/2$\\
+
+Para que el área $x$ sin cambios se debe de redefinir $h$ de la siguiente forma: $h = x/b$, de esta forma se mantiene la relación inicial en al que $x = b*h$
+
+El nuevo rectángulo que se forma mantiene la misma área $x$ pero es más parecido a un cuadrado.\\
+
+Con cada repetición de éste procedimiento en nuevo rectángulo que se obtiene se parecerá cada vez más a un cuadrado, y en consecuencia la longitud de cada uno de los lados se acercará cada vez más a la raiz cuadrada de $x$.
+ \pagebreak
+\section*{Ejemplos}
+Para $x = 16$
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{ |c|c|c| } 
+	  \multicolumn{3}{c}{$x = 16$}\\
+	  \hline
+	 	rectángulo & b & h \\
+	  \hline
+		1& 16	& 1\\
+		2& 8,5000	& 1,8824\\
+		3& 5,1912	& 3,0822\\
+		4& 4,1367	& 3,8679\\
+		5& 4,0023	& 3,9977\\
+		6& 4,0000	& 4,0000\\
+	 \hline
+	\end{tabular}
+\caption{Rectángulos para $x$ = 16 }
+\label{table:1}
+\end{table}
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{ |c|c|c| } 
+	  \multicolumn{3}{c}{$x = 4$}\\
+	  \hline
+	 	rectángulo & b & h \\  
+	  \hline
+		  1& 4&	1\\ 
+		  2& 2,5000&	1,6000\\
+		  3& 2,0500&	1,9512\\
+		  4& 2,0006&	1,9994\\
+		  5& 2,0000&	2,0000\\
+	 \hline
+	\end{tabular}
+	\caption{Rectángulos para $x$ = 4 }
+	\label{table:2}
+\end{table}
+Esta forma de calcular la raíz cuadrada nos deja algunas preguntas, a saber:
+\begin{enumerate}
+\item ¿ Siempre se obtiene el valor exacto de la raíz?
+\item ¿ Hay un numero fijo de rectángulos que se tengan que calcular antes de obtener la raíz?
+
+\end{enumerate}
+
+
+\begin{thebibliography}{0}
+ \bibitem[PBS1996]{AlgoritmosPablo}Barrera Sánchez Pablo, Algoritmos Sencillos para Evaluar Funciones Elementales, 1996.
+\end{thebibliography}
+
+
+
+\end{document}

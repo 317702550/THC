@@ -16,12 +16,24 @@ Proceso para la raíz de """ + str(x) + ":") # La función str() convierte una v
         print("Rectángulo %.0f---%.5f---%.5f"%(i,b,h))
         plt.plot([0,b],[0,0],linewidth = 1.5, color = "c")
         plt.plot([0,b],[h,h],linewidth = 1.5, color = "b")
-        plt.plot([0,0],[0,h],linewidth = 1.5, color = "c")
-        plt.plot([b,b],[0,h],linewidth = 1.5, color = "b")
+        plt.plot([0,0],[0,h],linewidth = 1.5, color = "b")
+        plt.plot([b,b],[0,h],linewidth = 1.5, color = "c")
         plt.show()
+        print("""
+\draw (0,0) -- (0,b) -- (h,b) -- (h,0) -- (0,0);
+\\filldraw[black] (2.3,.2) circle (0pt)
+node[anchor=west] {x};        
+\\filldraw[black] (5,.5) circle (0pt)
+node[anchor=west] {1};""")
     return("Resultado final: "+str(b))
 print(rc(81))
 #print(rc(95))
 #print(rc(0.5))
 #print(rc(0.125))
 
+print("""
+\draw (0,0) -- (0,1) -- (5,1) -- (5,0) -- (0,0);
+\filldraw[black] (2.3,.2) circle (0pt)
+node[anchor=west] {x};        
+\filldraw[black] (5,.5) circle (0pt)
+node[anchor=west] {1};""")
