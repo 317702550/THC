@@ -103,6 +103,33 @@ Esta forma de calcular la raíz cuadrada nos deja algunas preguntas, a saber:
  \bibitem[PBS1996]{AlgoritmosPablo}Barrera Sánchez Pablo, Algoritmos Sencillos para Evaluar Funciones Elementales, 1996.
 \end{thebibliography}
 
-
+\section*{Visualización paso a paso}
+\begin{center}
+	{ \begin{tikzpicture}
+		\draw (0,0) -- (0,21) -- (4,21) -- (4,0) -- (0,0);
+		\filldraw[blue] (2.3,.2) circle (0pt)
+		node[anchor=west] {$\frac{b+h}{2}$};        
+		\filldraw[blue] (5,.5) circle (0pt)
+		node[anchor=west] {$\frac{x}{b}$};
+		
+		\draw (0,0) -- (0,13) -- (6,13) -- (6,0) -- (0,0);
+		\filldraw[black] (2.3,.2) circle (0pt)
+		node[anchor=west] {$\frac{b+h}{2}$};        
+		\filldraw[black] (5,.5) circle (0pt)
+		node[anchor=west] {$\frac{x}{b}$};
+		
+		\draw (0,0) -- (0,10) -- (9,10) -- (9,0) -- (0,0);
+		\filldraw[black] (2.3,.2) circle (0pt)
+		node[anchor=west] {$\frac{b+h}{2}$};        
+		\filldraw[black] (5,.5) circle (0pt)
+		node[anchor=west] {$\frac{x}{b}$};
+		
+		\draw (0,0) -- (0,9) -- (9,9) -- (9,0) -- (0,0);
+		\filldraw[black] (2.3,.2) circle (0pt)
+		node[anchor=west] {$\frac{b+h}{2}$};        
+		\filldraw[black] (5,.5) circle (0pt)
+		node[anchor=west] {$\frac{x}{b}$};
+		\end{tikzpicture}}
+\end{center}
 
 \end{document}
