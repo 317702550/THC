@@ -1,0 +1,13 @@
+Semana 13: 
+
+Día 1: Se presentó un “híbrido” de las condiciones if, else: elif. En vez de 
+poner la implicación dentro del else, se escribe elif y representa la misma 
+función. Se nos explicó acerca de los diccionarios, los cuales están compuestos 
+por el campo llave. Lo que tienen en común las listas, números, tuplas, … 
+es que son objetos. El profesor nos enseñó su código para observar las diferentes 
+formas de eficiencia según cómo se escribió el código. 
+
+Día 2:
+Dimos un análisis más profundo del fractal de Cantor. Esto fue útil ya que pudimos 
+compartir diferentes ideas y analizar al acercamiento que cada uno de nosotros
+tomo para la resolución de los problemas que enfrentamos. 

@@ -1,0 +1,9 @@
+Día 1: Debido a que el profesor tuvo un imprevisto, la ayudante estuvo contestando 
+dudas y ayudando a corregir algunos errores. Una vez que llegó el profesor, 
+discutimos sobre la forma de interpretar en Python un laberinto. La forma en la 
+que se interpretó fue: se coloca un 1 si hay pared, un 0 si no hay pared. 
+
+Día 2:  Vimos la utilidad de una nueva función: bool, la cual es un evaluador 
+de verdadero o falso. En el caso de la cadena, es falsa si la cadena es vacía 
+y verdadera si no es vacía. En el caso numérico, es falsa si el valor es igual
+a 0, verdadero si no es igual a 0. 

@@ -1,0 +1,7 @@
+Día 1: La ayudante nos explicó más a fondo de cómo funciona el lenguaje de 
+LaTeX y los posibles errores que podemos cometer al hacer un artículo. 
+Empezamos un documento nuevo en el cual escribimos algunas ecuaciones y 
+expresiones matemáticas para familiarizarnos con la forma de escritura en LaTeX. 
+
+Día 2: El profesor nos dio un repaso de recursividad y vimos cómo se puede 
+aplicar en el programa de Raíz Cuadrada entre algunos otros.

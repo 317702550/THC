@@ -1,0 +1,74 @@
+Semana 1:
+Kernel: 4 veces
+Shell: 5 veces
+Nube: 
+Procesador:
+Linux:
+Bash:
+Windows:
+Memoria RAM: 2 veces:
+Sistema operativo:
+
+Semana 2:
+GitHub:
+Comando:
+Terminal:
+Linux:
+Fedora:
+Cliente:
+Servidor:
+Directorio:
+Repositorio:
+
+Semana 3:
+Consola
+Comando
+Python
+Máquina virtual
+Núcleo
+
+Semana 4:
+Terminal
+Fedora Python
+GitHub
+Linux
+Archivo
+Repositorio
+Directorio 
+
+Semana 5: 
+Máquina remota:
+Linux
+Windows
+Shell
+Bash
+
+Semana 6: 
+IDLE 3
+Python
+Fedora
+Variable
+Flotante
+
+Semana 7: 
+Cadena
+Comillas
+
+
+Semana 8: 
+
+Semana 9:
+
+Semana 10: 
+
+Semana 11: 
+
+Semana 12: 
+
+Semana 13: 
+
+Semama 14:
+
+Semana 15:
+
+Semana 16:

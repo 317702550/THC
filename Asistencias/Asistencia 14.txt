@@ -1,0 +1,9 @@
+Día 1: Observamos algunas de las características de los archivos vistos desde 
+la terminal. R: Leer.  W: Escribir. X: Ejecutar. El permiso de ejecución más 
+un intérprete da la propiedad de ejecutabilidad. El comando es: 
+chmod +x <nombre del archivo>
+
+Día 2: El profesor nos dio una recapitulación de lo que es recursividad. Para 
+tener una función recursiva se necesitan la base de recursividad y el llamado 
+recursivo. Se hizo un programa que calcula el n-ésimo término de la serie de 
+Fibonacci. Los programas se ejecutan con el intérprete de Python.
