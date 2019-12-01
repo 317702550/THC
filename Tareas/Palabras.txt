@@ -1,74 +1,113 @@
 Semana 1:
 Kernel: 4 veces
 Shell: 5 veces
-Nube: 
-Procesador:
-Linux:
-Bash:
-Windows:
-Memoria RAM: 2 veces:
-Sistema operativo:
+Nube: 4 veces
+Procesador: 2 veces
+Linux: 7 veces
+Bash: 6 veces
+Windows: 7 veces
+Memoria RAM: 2 veces
+Sistema operativo: 5 veces
 
 Semana 2:
-GitHub:
-Comando:
-Terminal:
-Linux:
-Fedora:
-Cliente:
-Servidor:
-Directorio:
-Repositorio:
+GitHub: 8 veces
+Comando: 4 veces
+Terminal: 3 veces
+Linux: 6 veces
+Fedora: 5 veces
+Cliente: 5 veces
+Servidor: 6 veces
+Directorio: 7 veces
+Repositorio: 7 veces
+Lenguaje: 3 veces
 
 Semana 3:
-Consola
-Comando
-Python
-Máquina virtual
-Núcleo
+Consola: 4 veces
+Comando: 3 veces
+Python: 5 veces
+Máquina virtual:7 veces
+Núcleo:2 veces
 
 Semana 4:
-Terminal
-Fedora Python
-GitHub
-Linux
-Archivo
-Repositorio
-Directorio 
+Terminal: 3 veces
+Fedora Python: 5 veces
+GitHub: 5 veces
+Linux: 4 veces
+Archivo: 3 veces
+Repositorio: 6 veces
+Directorio: 5 veces
 
 Semana 5: 
-Máquina remota:
-Linux
-Windows
-Shell
-Bash
+Máquina remota: 4 veces
+Linux: 6 veces
+Windows: 3 veces
+Shell: 4 veces
+Bash: 4 veces
 
 Semana 6: 
-IDLE 3
-Python
-Fedora
-Variable
-Flotante
+IDLE 3: 2 veces
+Python: 1 vez
+Fedora: 2 veces
+Variable: 4 veces
+Flotante: 2 veces
 
 Semana 7: 
-Cadena
-Comillas
-
+Cadena: 4 veces
+Comillas: 1 vez
+Objeto: 2 veces
+Método: 3 veces
+Biblioteca: 2 veces
 
 Semana 8: 
+Tupla: 2 veces
+Lista: 2 veces
+Variable: 5 veces
+Latencia: 1 vez
+Servidor: 1 vez
 
 Semana 9:
+Función: 3 veces
+Condición: 2 veces
+Bloque de código: 1 vez
+Ciclo: 5 veces
 
 Semana 10: 
+Autómata: 4 veces
+Unidimensional: 2 veces
+Sistema binario: 1 vez
+Listas: 3 veces
 
 Semana 11: 
+Código fuente: 1 vez
+LaTeX: 2 veces
+Paquetes: 2 veces
+Cadena: 1 vez
 
 Semana 12: 
+Lista: 3 veces
+Ciclo: 4 veces
+Iteración: 2 veces
+Condicional: 2 veces
 
 Semana 13: 
+Condicional: 3 veces
+Fractal: 4 veces
+Eficiencia: 1 vez
+Objetos: 5 veces
 
 Semama 14:
+Ejecutabilidad: 2 veces
+Permiso: 3 veces
+Recursividad: 4 veces
+Ciclo: 2 veces
+Función: 1 vez
 
 Semana 15:
+Lenguaje: 4 veces
+Comando: 2 veces
+Error: 3 veces
 
 Semana 16:
+Interpretar: 2 veces
+Booleano: 3 veces
+Evaluador: 1 vez
