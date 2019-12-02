@@ -23,3 +23,21 @@ Cliente: Dispositivo o aplicación el cual está en comunicación con el servido
 Ruta absoluta: La dirección completa desde el home del usuario hasta el archivo
 
 Ruta relativa: La dirección a partir de un directorio o repositorio en común de dos o más ordenadores
+
+Función: Bloque de código que recibe y procesa información
+
+Lista = Objeto en Python que almacena en conjunto otros objetos. Modificable
+
+Tupla = Igual a las listas, pero no se pueden modificar
+
+Cadena = Objeto en Python dado por caracteres entre comillas
+
+GitHub: Plataforma en línea  en la que se almacenan proyectos y el desarrollo de los
+mismos.
+
+Cadena multilínea: Conjunto delimitado por varias comillas
+
+Terminal: Intérprete de comandos
+
+Objeto: Unidad de información con la capacidad de ser modificada o alterada
+mediante métodos

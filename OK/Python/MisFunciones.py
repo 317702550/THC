@@ -172,3 +172,17 @@ Regresa 3*n + 1 si n es impar
 print(ulam(3))
 print(ulam(8))
 print(ulam(0))
+
+def prom():
+    """Calcula el promedio
+de tus calificaiones"""
+    l = []
+    p = "Si"
+    while p == "Si":
+        print("Ingrese la calificación")
+        x = float(input())
+        l.append(x)
+        print("¿Desea agregar otra calificación?")
+        p = str(input())
+    R = sum(l)/len(l)
+    return("Su cailificación es: " + str(R))
