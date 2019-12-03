@@ -185,4 +185,5 @@ de tus calificaiones"""
         print("¿Desea agregar otra calificación?")
         p = str(input())
     R = sum(l)/len(l)
-    return("Su cailificación es: " + str(R))
+    return(print("Su cailificación es: " + str(R)))
+prom()
